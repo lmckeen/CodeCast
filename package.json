@@ -1,0 +1,20 @@
+{
+  "name": "codecast",
+  "version": "0.0.1",
+  "description": "Development tool that allows local code to be easily casted to a receiver with hot reloading",
+  "exports": {
+    ".": "./dist/sender.js",
+    "./sender": "./dist/sender.js",
+    "./receiver": "./dist/receiver.js"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch"
+  },
+  "author": "Luke Mckeen",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
