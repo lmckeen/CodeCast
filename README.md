@@ -6,13 +6,10 @@ Allows local code to be easily casted to a chromecast receiver with hot reloadin
 
 ## How to use CodeCast
 
-<br>
 
 ```
 npm install codecast
 ```
-
-<br>
 
 ### Sender 
 ```js
@@ -30,8 +27,6 @@ window['__onGCastApiAvailable'] = function(isAvailable) {
 }
 ```
 
-<br>
-
 ### Receiver
 ```js
 import { CodeCast } from 'codecast/receiver'
@@ -46,8 +41,6 @@ codeCast.start({
 
 ## API Docs
 
-<br>
-
 ### Sender
 
 ```js
@@ -61,8 +54,6 @@ sendString(text: string): Promise
 reload(): void
 ```
 
-<br>
-
 ### Receiver
 
 ```js
@@ -74,12 +65,9 @@ start(options: CastReceiverOptions): CastReceiverContext
 
 ## Demo
 
-<br>
-
 ### Live 
 https://lukemckeen.com/CodeCast-Demo/dist/sender
 
-<br>
 
 ### Repo
 https://github.com/lmckeen/CodeCast-Demo
