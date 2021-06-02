@@ -11,6 +11,10 @@
     "build": "webpack",
     "build:watch": "webpack --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmckeen/codecast.git"
+  },
   "author": "Luke Mckeen",
   "license": "ISC",
   "devDependencies": {
