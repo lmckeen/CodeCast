@@ -15,5 +15,6 @@ export class CodeCast {
   start(options) {
     this.context.start(options)
     sendConnected()
+    return this.context
   }
 }
