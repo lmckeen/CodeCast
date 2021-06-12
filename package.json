@@ -1,6 +1,6 @@
 {
   "name": "codecast",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Development tool that allows local code to be easily casted to a receiver with hot reloading",
   "exports": {
     ".": "./src/sender",
