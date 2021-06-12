@@ -8,8 +8,10 @@ export class CodeCast {
     
     const castPlayer = document.querySelector('cast-media-player')
 
-    castPlayer.style.setProperty('--logo-image', 'linear-gradient(transparent, transparent)');
-    castPlayer.style.setProperty('--splash-image', 'linear-gradient(transparent, transparent)');
+    if (castPlayer) {
+      castPlayer.style.setProperty('--logo-image', 'linear-gradient(transparent, transparent)')
+      castPlayer.style.setProperty('--splash-image', 'linear-gradient(transparent, transparent)')
+    }
   }
 
   start(options) {
